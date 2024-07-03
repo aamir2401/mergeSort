@@ -72,7 +72,7 @@ int main()
 {
     int arr[5] = {54, 23, 76, 12, 96};
     int size = 5;
-    mergeSort(arr, 0, size - 1); // passing parameters
+    mergeSort(arr, 0, size - 1); 
     for (int i = 0; i < size; i++)
     {
         cout << arr[i] << " ";
